@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="svg no-js">
+<head>
+    <meta charset="utf-8" />
+    <!--[if IE ]>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Language" content="en">
+
+    <title>MySQL :: Begin Your Download - mysql-connector-python_2.1.5-1debian7.11_all.deb</title>
+    <link rel="stylesheet" media="all" href="https://www-jp.mysql.com/common/css/main-20170220.min.css" />
+            <link rel="stylesheet" media="all" href="https://www-jp.mysql.com/common/css/page-20170220.min.css" />
+    
+    
+    <link rel="stylesheet" media="print" href="https://www-jp.mysql.com/common/css/print-20170220.min.css" />
+
+    
+            <meta name="robots" content="noindex,nofollow" />
+    
+    
+    
+    <link rel="shortcut icon" href="https://www-jp.mysql.com/common/themes/sakila/favicon.ico" />
+    <script>(function(H){ H.className=H.className.replace(/\bno-js\b/,'js') })(document.documentElement)</script>
+    <script src="https://www-jp.mysql.com/common/js/site-20160129.min.js"></script>
+
+    
+    
+    
+    <!--[if lt IE 9]>
+        <script src="https://www-jp.mysql.com/common/js/polyfills/html5shiv-printshiv-3.7.2.min.js"></script>
+        <script src="https://www-jp.mysql.com/common/js/polyfills/respond-1.4.2.min.js"></script>
+    <![endif]-->
+    </head>
+
+<body class="  dev">
+    <header>
+
+                        <a href="https://dev.mysql.com/" title="MySQL" id="l1-home-link"></a>
+        
+        <div id="l1-nav-container">
+            <div>
+                <div id="l1-search-auth">
+                    <div id="l1-auth-links">
+                        <a href="https://www.mysql.com/about/contact/"><strong>Contact MySQL</strong></a>
+                        <span id="l1-contact-separator">&nbsp;|&nbsp;</span>
+                        <span id="l1-contact-separator-br"><br /></span>
+                                                     <a href="https://dev.mysql.com/auth/login/?dest=https%3A%2F%2Fdev.mysql.com%2Fdownloads%2Ffile%2F%3Fid%3D467819">Login</a> &nbsp;|&nbsp;
+                             <a href="https://dev.mysql.com/auth/register/">Register</a>
+                                            </div>
+                    <div id="l1-search-box">
+                        <form id="l1-search-form" method="get" action="https://www.oracle.com/search/results">
+                        <input type="hidden" name="cat" value="mysql" />
+                        <input type="hidden" name="Ntk" value="SI-ALL5" />
+                        <input type="text" id="l1-search-input" name="Ntt" />
+                        <button type="submit" class="l1-search-btn" title="Search"><span class="icon-search"></span></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a title="Join us on Facebook" href="http://www.facebook.com/mysql"><span class="icon-facebook-square"></span></a>
+                    <a title="Follow us on Twitter" href="https://twitter.com/#!/mysql"><span class="icon-twitter-square"></span></a>
+                    <a title="Join Google+ to follow MySQL" href="https://plus.google.com/+mysql"><span class="icon-google-plus-square"></span></a>
+                    <a title="Visit our YouTube channel" href="http://www.youtube.com/mysqlchannel"><span class="icon-youtube-square"></span></a>
+                </div>
+                <div id="l1-slogan">
+                    The world's most popular open source database
+                </div>
+            </div>
+            <div>
+                <ul id="l1-nav">
+                    <li>
+                        <a href="https://www.mysql.com/"><!-- <span class="icon-sakila"></span>  -->MySQL.com</a>
+                    </li><li class="active">
+                        <a href="https://www.mysql.com/downloads/"><!-- <span class="icon-download-thin"></span>  -->Downloads</a>
+                    </li><li>
+                        <a href="/doc/"><!-- <span class="icon-books"></span>  -->Documentation</a>
+                    </li><li>
+                        <a href="/"><!-- <span class="icon-code"></span>  -->Developer Zone</a>
+                    </li>                </ul>
+            </div>
+        </div>
+        <div id="sub-header">
+            <div id="l2-nav-container">
+                <div id="l2-nav-toggle">
+                    <span class="icon-three-bars"></span>
+                </div>
+                                                                                        <a class="button nav-button-3" href="/"><span class="icon-code"></span> Developer Zone</a>
+                                                                                                <a class="button nav-button-2" href="/doc/"><span class="icon-books"></span> Documentation</a>
+                                                                                                                                    <a class="button nav-button-1" href="https://www.mysql.com/"><span class="icon-sakila"></span> MySQL.com</a>
+                                                                        <div id="l2-search-toggle">
+                    <span class="icon-search"></span>
+                </div>
+                <div id="l2-site-icon">
+                                                                                                                                                                <span class="icon-download-thin"></span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </div>
+                <div id="l1-section-title">
+                    <span id="l1-section-label">
+                        <a href="https://www.mysql.com/downloads/">Downloads</a>
+                    </span>
+                </div>
+                <nav>
+                    
+
+<ul id="l2-nav">
+        	<li class=""><a  href="https://www.mysql.com/downloads/">Enterprise</a>
+
+			</li>
+	    	<li class="active"><a class="active subitems" href="/downloads/">Community</a>
+
+			</li>
+	    	<li class=""><a  href="/downloads/repo/yum/">Yum Repository</a>
+
+			</li>
+	    	<li class=""><a  href="/downloads/repo/apt/">APT Repository</a>
+
+			</li>
+	    	<li class=""><a  href="/downloads/repo/suse/">SUSE Repository</a>
+
+			</li>
+	    	<li class=""><a  href="/downloads/windows/">Windows</a>
+
+			</li>
+	    	<li class=" last"><a  href="https://downloads.mysql.com/archives/">Archives</a>
+
+			</li>
+	                        <li class="other-section"><a href="https://www.mysql.com/">MySQL.com</a></li>
+                                        <li class="other-section"><a href="/doc/">Documentation</a></li>
+                            <li class="other-section"><a href="/">Developer Zone</a></li>
+            </ul>
+                </nav>
+            </div>
+            <div id="l3-search-container"></div>
+            <div id="top-orange"><span id="section-nav">Section Menu: &nbsp; </span></div>
+        </div>
+    </header>
+    <div id="page">
+                <div id="sidebar">
+            <div id="sidebar-blue"></div>
+
+            
+                <div id="sidebar-orange"></div>
+                <div id="menu">
+                    <nav>
+                        
+
+<ul>
+    	<li class=" level1"><a  href="/downloads/windows/">MySQL on Windows</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/repo/yum/">MySQL Yum Repository</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/repo/apt/">MySQL APT Repository</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/repo/suse/">MySQL SUSE Repository</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/mysql/">MySQL Community Server</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/cluster/">MySQL Cluster</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/fabric/">MySQL Fabric</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/router/">MySQL Router</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/utilities/">MySQL Utilities</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/shell/">MySQL Shell</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/workbench/">MySQL Workbench</a>
+
+			</li>
+	    	<li class=" level1"><a  href="/downloads/connector/">MySQL Connectors</a>
+
+			</li>
+	    	<li class=" last level1"><a  href="/downloads/other/">Other Downloads</a>
+
+			</li>
+	</ul>
+                    </nav>
+                    <br class="clear" />
+                </div>
+
+                
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                    </div>
+                        <div id="content-divider"><div id="content-divider-blue"><div id="content-divider-orange"></div></div></div>
+                <div role="main" id="main">
+
+                        <div id="main-orange"></div>
+
+            <div id="content">
+                                                        <h1 class="page-title" id="mainContent">Begin Your Download - mysql-connector-python_2.1.5-1debian7.11_all.deb</h1>
+                                                
+                
+    
+    <h3>Login Now or Sign Up for a free account.</h3>
+    <p>An Oracle Web Account provides you with the following advantages:</p>
+    <ul>
+        <li>Fast access to MySQL software downloads</li>
+        <li>Download technical White Papers and Presentations</li>
+        <li>Post messages in the MySQL Discussion Forums </li>
+        <li>Report and track bugs in the MySQL bug system</li>
+        <li>Comment in the MySQL Documentation</li>
+    </ul>
+            <div class="login-callout">
+    <div class="login-callout-btns">
+                <a class="big-button-blue" href="https://dev.mysql.com/auth/login/?dest=https%3A%2F%2Fdev.mysql.com%2Fdownloads%2Ffile%2F%3Fid%3D467819">
+                    Login &raquo;<br />
+            <span class="button-subtitle">using my Oracle Web account</span>
+        </a>
+        &nbsp; &nbsp;
+                <a class="big-button-green" href="https://dev.mysql.com/auth/register/?dest=https%3A%2F%2Fdev.mysql.com%2Fdownloads%2Ffile%2F%3Fid%3D467819">
+                    Sign Up &raquo;<br />
+            <span class="button-subtitle">for an Oracle Web account</span>
+        </a>
+    </div>
+        MySQL.com is using Oracle SSO for authentication. If you already have an Oracle Web account, click the Login link. Otherwise, you can signup for a free account by clicking the Sign Up link and following the instructions.
+</div>
+        <br /><p><b><a href="/get/Downloads/Connector-Python/mysql-connector-python_2.1.5-1debian7.11_all.deb">No thanks, just start my download.</a></b></p><br />
+
+
+                        </div>
+            
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer-links">
+
+            <div id="footer-nav"></div>
+
+            <div id="footer-contact">
+                <p><span class="top">Contact Sales</span></p>
+                <p>USA: <span class="nobr">+1-866-221-0634</span><br />
+Canada: <span class="nobr">+1-866-221-0634</span><br /><br />
+
+Germany: <span class="nobr">+49 89 143 01280</span><br />
+France: <span class="nobr">+33 1 57 60 83 57</span><br />
+Italy: <span class="nobr">+39 02 249 59 120</span><br />
+UK: <span class="nobr">+44 207 553 8447</span><br /><br />
+
+Japan: <span class="nobr">0120-065556</span><br />
+China: <span class="nobr">10800-811-0823</span><br />
+India: <span class="nobr">0008001005870</span><br /><br />
+
+<a href="https://www.mysql.com/about/contact/phone/">More Countries&nbsp;&raquo;</a><br />
+                <strong><a href="https://www.mysql.com/about/contact/">Contact Us Online&nbsp;&raquo;</a></strong>
+                                </p>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li class="top"><a href="https://www.mysql.com/products/">Products</a></li>
+                    <li><a href="https://www.mysql.com/products/enterprise/">MySQL Enterprise Edition</a></li>
+                    <li><a href="https://www.mysql.com/products/standard/">MySQL Standard Edition</a></li>
+                    <li><a href="https://www.mysql.com/products/classic/">MySQL Classic Edition</a></li>
+                    <li><a href="https://www.mysql.com/products/cluster/">MySQL Cluster CGE</a></li>
+                    <li><a href="https://www.mysql.com/oem/">MySQL Embedded (OEM/ISV)</a></li>
+                </ul>
+                <br />
+                <ul>
+                    <li class="top"><a href="https://www.mysql.com/services/">Services</a></li>
+                    <li><a href="https://www.mysql.com/training/">Training</a></li>
+                    <li><a href="https://www.mysql.com/certification/">Certification</a></li>
+                    <li><a href="https://www.mysql.com/consulting/">Consulting</a></li>
+                    <li><a href="https://www.mysql.com/support/">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li class="top"><a href="https://dev.mysql.com/downloads/">Downloads</a></li>
+                    <li><a href="https://dev.mysql.com/downloads/mysql/">MySQL Community Server</a></li>
+                    <li><a href="https://dev.mysql.com/downloads/cluster/">MySQL NDB Cluster</a></li>
+                    <li><a href="https://dev.mysql.com/downloads/shell/">MySQL Shell</a></li>
+                    <li><a href="https://dev.mysql.com/downloads/router/">MySQL Router</a></li>
+                    <li><a href="https://dev.mysql.com/downloads/workbench/">MySQL Workbench</a></li>
+                </ul>
+                <br />
+                <ul>
+                    <li class="top"><a href="https://www.mysql.com/about/">About MySQL</a></li>
+                    <li><a href="https://www.mysql.com/about/contact/">Contact Us</a></li>
+                                                            <li><a href="https://www.mysql.com/buy-mysql/">How to Buy</a></li>
+                    <li><a href="https://www.mysql.com/partners/">Partners</a></li>
+                    <li><a href="https://www.mysql.com/about/jobs/">Job Opportunities</a></li>
+                    <li><a href="https://www.mysql.com/sitemap.html">Site Map</a></li>
+                </ul>
+            </div>
+
+            <div class="links">
+                <ul>
+                    <li class="top"><a href="https://dev.mysql.com/doc/">Documentation</a></li>
+                    <li><a href="https://dev.mysql.com/doc/refman/en/">MySQL Reference Manual</a></li>
+                    <li><a href="https://dev.mysql.com/doc/workbench/en/">MySQL Workbench</a></li>
+                    <li><a href="https://dev.mysql.com/doc/index-cluster.html">MySQL NDB Cluster</a></li>
+                    <li><a href="https://dev.mysql.com/doc/index-connectors.html">MySQL Connectors</a></li>
+                    <li><a href="https://dev.mysql.com/doc/#topic">Topic Guides</a></li>
+                </ul>
+                <br />
+                <ul>
+                    <li class="top"><a href="https://www.mysql.com/about/legal/">Legal</a></li>
+                    <li><a href="https://www.mysql.com/about/legal/">Legal Policies</a></li>
+                    <li><a href="http://www.oracle.com/us/legal/privacy/index.htm">Your Privacy Rights</a></li>
+                    <li><a href="http://www.oracle.com/us/legal/terms/index.html">Terms of Use</a></li>
+                    <li><a href="http://www.oracle.com/us/legal/third-party-trademarks/index.html">Trademark Policy</a></li>
+                    <li><a href="http://www.oracle.com/technetwork/community/oca-486395.html">Contributor Agreement</a></li>
+                    <li><div id="teconsent"><script async="async" type="text/javascript" src="//consent.truste.com/notice?domain=mysql.com&c=teconsent&text=true" crossorigin=""></script></div></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-bottom">
+                                    <div id="footer-logo">
+                <a href="http://www.oracle.com/"><span id="oracle-logo"></span></a>
+                &nbsp; &copy; 2017, Oracle Corporation and/or its affiliates
+            </div>
+                        <div class="social-icons">
+                <a title="Join us on Facebook" href="http://www.facebook.com/mysql"><span class="icon-facebook-square"></span></a>
+                <a title="Follow us on Twitter" href="https://twitter.com/#!/mysql"><span class="icon-twitter-square"></span></a>
+                <a title="Join Google+ to follow MySQL" href="https://plus.google.com/+mysql"><span class="icon-google-plus-square"></span></a>
+                <a title="Visit our YouTube channel" href="http://www.youtube.com/mysqlchannel"><span class="icon-youtube-square"></span></a>
+            </div>
+            <br class="clear" />
+        </div>
+    </footer>
+
+        <script src="https://www-jp.mysql.com/common/js/metrics/s_code_remote.js"></script>
+
+        
+</body>
+</html>

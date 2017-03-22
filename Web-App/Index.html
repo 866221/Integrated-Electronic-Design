@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--Runs as the root file upon Apache2 server startup on ip address 10.10.10.~
+    THIS FILE IS IN PROTOTYPE-->
+<html>
+<head>
+    <script>
+        function lockContinuous() {
+            var driver = new XMLHttpRequest();
+            driver.open("GET", "lockContinuous.php", true);
+            driver.send(null);
+        }
+
+        function unlockContinuous() {
+            var driver = new XMLHttpRequest();
+            driver.open("GET", "unlockContinuous.php", true);
+            driver.send(null);
+        }
+        function runRfidRead() {
+            var driver = new XMLHttpRequest();
+            driver.open("GET", "rfid.php", true);
+            driver.send(null);
+        }
+    </script>
+</head>
+<body>
+
+<input type = "button" value = "ON" onclick = "lockContinuous()" >
+<input type = "button" value = "OFF" onclick = "unlockContinuous()" >
+<input type="button" value="RFID" onclick="runRfidRead()">
+</body>
+</html>
