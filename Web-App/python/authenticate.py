@@ -56,6 +56,7 @@ while continue_reading:
 def isAuthentic():
     result = str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3])
     curs.execute("SELECT * FROM scan WHERE tunique="+result)
+    print(curs.fetchall())
     if len(curs.fetchall()) > 0:
         return True
     else:

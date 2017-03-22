@@ -30,8 +30,8 @@
       <file leaf-file-name="authenticate.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/authenticate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            <state relative-caret-position="945">
+              <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -299,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/authenticate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="65" column="34" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        <state relative-caret-position="945">
+          <caret line="58" column="26" lean-forward="true" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
           </folding>
