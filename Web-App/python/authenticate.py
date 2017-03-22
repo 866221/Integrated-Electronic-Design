@@ -63,7 +63,9 @@ def isAuthentic():
 
 if isAuthentic:
     GPIO.output(pin, 1)
+    print ("The door is unlocked")
 else:
     GPIO.output(pin, 0)
+    print ("Unauthentic, door locked")
 
 
