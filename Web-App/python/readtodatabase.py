@@ -49,7 +49,7 @@ if status == MIFAREReader.MI_OK:
 
 try:
     print ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0]) + "," + str(uid[1]) + "," + str(uid[2]) + "," + str(uid[3]) + ")")
-    curs.execute ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0]) + "," + str(uid[1]) + "," + str(uid[2]) + "," + str(uid[3]) + ")")
+    curs.execute ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3]) + ")")
 
     db.commit()
     print ("Data committed")
