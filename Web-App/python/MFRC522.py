@@ -1,0 +1,1 @@
+../../MFRC522-python/MFRC522.py

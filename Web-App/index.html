@@ -3,7 +3,7 @@
     THIS FILE IS IN PROTOTYPE-->
 <html>
 <head>
-    Hello
+    Test13
     <script>
         function lockContinuous() {
             var driver = new XMLHttpRequest();
@@ -18,15 +18,41 @@
         }
         function runRfidRead() {
             var driver = new XMLHttpRequest();
+            var txt =" "
             driver.open("GET", "php/rfid.php", true);
             driver.send(null);
+            uniqueID = driver.getElementsByTagName("unique");
+            document.getElementById("unique").innerHTML = txt;
         }
+        function loadXMLDoc() {
+            var driver= new XMLHttpRequest();
+            driver.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            driver.open("GET", "php/rfid.php", true);
+            driver.send();
+        }
+
+        function myFunction(xml) {
+            var x, i,  xmlDoc, txt;
+            xmlDoc = xml.responseXML;
+            txt = "";
+            x = xmlDoc.getElementsByTagName("b");
+            for (i = 0; i< x.length; i++) {
+                txt += x[i].childNodes[0].nodeValue + "<b>";
+            }
+            document.getElementById("RFID").innerHTML = txt;
+        }
+
     </script>
 </head>
 <body>
 
 <input type = "button" value = "ON" onclick = "lockContinuous()" >
 <input type = "button" value = "OFF" onclick = "unlockContinuous()" >
-<input type="button" value="RFID" onclick="runRfidRead()">
+<input type = "button" value = "RFID" onclick ="loadXMLDoc()" >
+<b>READ: <span id="unique"></span></b>
 </body>
 </html>
