@@ -2,7 +2,7 @@
 
 import MySQLdb
 import RPi.GPIO as GPIO
-import MFRC522
+import /home/pi/Desktop/Integrated-Electronic-Design/MFRC522-python/MFRC522
 import signal
 import time
 
