@@ -2,7 +2,8 @@
 
 import MySQLdb
 import RPi.GPIO as GPIO
-import /home/pi/Desktop/Integrated-Electronic-Design/MFRC522-python/MFRC522
+import imp
+MFRC522 = imp.load_source('MFRC522.py', '/home/pi/Desktop/Integrated-Electronic-Design/MFRC522-python/MFRC522.py')
 import signal
 import time
 
