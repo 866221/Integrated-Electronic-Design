@@ -18,8 +18,8 @@
       <file leaf-file-name="readtodatabase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readtodatabase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="50" column="125" lean-forward="true" selection-start-line="50" selection-start-column="125" selection-end-line="50" selection-end-column="125" />
+            <state relative-caret-position="1209">
+              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
               <folding>
                 <element signature="e#23#37#0" expanded="true" />
               </folding>
@@ -276,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readtodatabase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="957">
-          <caret line="50" column="125" lean-forward="true" selection-start-line="50" selection-start-column="125" selection-end-line="50" selection-end-column="125" />
+        <state relative-caret-position="1209">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
           <folding>
             <element signature="e#23#37#0" expanded="true" />
           </folding>

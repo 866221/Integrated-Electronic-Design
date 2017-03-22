@@ -28,24 +28,29 @@ MIFAREReader = MFRC522.MFRC522()
 
 db = MySQLdb.connect("localhost", "ied", "IEDpassword", "ids")
 curs = db.cursor()
+uid = []
 
-# Scan for cards
-(status, TagType) = MIFAREReader.MFRC522_Request(MIFAREReader.PICC_REQIDL)
+while continue_reading:
 
-# If a card is found
-if status == MIFAREReader.MI_OK:
-    # print "Card detected"
-    GPIO.output(pin, 1)
-elif status != MIFAREReader.MI_OK:
-    GPIO.output(pin, 0)
+    # Scan for cards
+    (status, TagType) = MIFAREReader.MFRC522_Request(MIFAREReader.PICC_REQIDL)
 
-# Get the UID of the card
-(status, uid) = MIFAREReader.MFRC522_Anticoll()
+    # If a card is found
+    if status == MIFAREReader.MI_OK:
+        # print "Card detected"
+        GPIO.output(pin, 1)
+    elif status != MIFAREReader.MI_OK:
+        GPIO.output(pin, 0)
 
-# If we have the UID, continue
-if status == MIFAREReader.MI_OK:
-    # Print UID
-    print("Card read UID: " + str(uid[0]) + "," + str(uid[1]) + "," + str(uid[2]) + "," + str(uid[3]))
+    # Get the UID of the card
+    (status, uid) = MIFAREReader.MFRC522_Anticoll()
+
+    # If we have the UID, continue
+    if status == MIFAREReader.MI_OK:
+        # Print UID
+        print("Card read UID: " + str(uid[0]) + "," + str(uid[1]) + "," + str(uid[2]) + "," + str(uid[3]))
+        continue_reading = False;
+        GPIO.cleanup()
 
 try:
     print ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3]) + ")")
@@ -53,9 +58,6 @@ try:
 
     db.commit()
     print ("Data committed")
-
-    continue_reading = False
-    GPIO.cleanup()
 
 
 except:
