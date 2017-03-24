@@ -59,7 +59,7 @@ def isAuthentic():
     print("SELECT * FROM scan WHERE tunique="+result)
     print(str(curs.fetchone()) + " was returned")
     print(len(str(curs.fetchone())))
-    if len(str(curs.fetchone())) > 2:
+    if str(curs.fetchone()) != "None":
         return True
     else:
         return False
