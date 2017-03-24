@@ -57,8 +57,8 @@ def isAuthentic():
     result = str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3])
     curs.execute("SELECT * FROM scan WHERE tunique="+result)
     print("SELECT * FROM scan WHERE tunique="+result)
-    print(str(curs.fetchall()) + "was returned")
-    if len(str(curs.fetchall())) > 2:
+    print(str(curs.fetchall()) + " was returned")
+    if len(str(curs.fetchall())) > 0:
         return True
     else:
         return False
