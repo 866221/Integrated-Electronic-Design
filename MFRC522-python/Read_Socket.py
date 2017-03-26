@@ -68,7 +68,7 @@ def Read():
     		if status == MIFAREReader.MI_OK:
 
         		# Print UID
-        		print ("Card read UID: "+str(uid[0])+","+str(uid[1])+","+str(uid[2])+","+str(uid[3]))
+        		result = (str(uid[0])+","+str(uid[1])+","+str(uid[2])+","+str(uid[3]))
     
         		# This is the default key for authentication
         		key = [0xFF,0xFF,0xFF,0xFF,0xFF,0xFF]
@@ -84,11 +84,11 @@ def Read():
             			MIFAREReader.MFRC522_Read(8)
             			MIFAREReader.MFRC522_StopCrypto1()
         		else:
-            			print ("Authentication error")
+            			result = ("Authentication error")
 
         		time.sleep(5)
+			continue_reading = False;
+			return result
 
 
 
-start()
-Read()

@@ -52,14 +52,36 @@ while continue_reading:
         continue_reading = False;
         GPIO.cleanup()
 
-try:
-    print ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3]) + ")")
-    curs.execute ("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + str(uid[0])  + str(uid[1])  + str(uid[2]) + str(uid[3]) + ")")
+condensed = str(uid[0]) + str(uid[1])  + str(uid[2]) + str(uid[3])
+
+def isAuthentic():
+    curs.execute("SELECT * FROM scan WHERE tunique="+condensed)
+    if str(curs.fetchone()) != "None":
+        return True
+    else:
+        return False
+
+if isAuthentic():
+    print("This card is already in the database")
+
+else:
+    first = raw_input('First name: ')
+    last = str(raw_input("Last name: "))
+    student_id = raw_input("Student ID: ")
+    gend = raw_input("Gender (M or F): ")
+    #try:
+    #print("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + condensed + ", " + student_id + ", " + last_name + ", " + first_name + ", " + gender + ")")
+    #curs.execute("INSERT INTO scan values(CURRENT_DATE(), NOW(), " + condensed + ", " + student_id + ", " + last_name + ", " + first_name + ", " + gender + ")")
+    get_date = "CURRENT_DATE()"
+    get_now = "NOW()"
+    curs.execute("INSERT INTO scan values(CURRENT_DATE , NOW(), %s, %s, %s, %s, %s)" , (condensed, student_id, last, first, gend))
 
     db.commit()
-    print ("Data committed")
+    print("Data committed")
 
 
-except:
-    print ("Error: the database is being rolled back")
-    db.rollback()
+    #except:
+        #print("Error: the database is being rolled back")
+        #db.rollback()
+
+
